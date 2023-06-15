@@ -1,18 +1,18 @@
-## Quill
+# Quill
 
 **Quill** is a very lightweight CSS toolbox for standardized and common style.
 
-### Usage
+## Usage
 
 You can directly include the `styles` folder into a project and link to the main file `styles/Quill.css` or use a CDN that interface Github like jsDelivr : [https://cdn.jsdelivr.net/gh/louis-parent/Quill@main/styles/Quill.css](https://cdn.jsdelivr.net/gh/louis-parent/Quill@main/styles/Quill.css).
 
-### Documentation
+## Documentation
 
-#### Variables
+### Variables
 
 **Quill** uses CSS variables to automatically generate customized style.
 
-##### Colors
+#### Colors
 
 There are three important CSS variables for color to set :
 
