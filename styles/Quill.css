@@ -1,9 +1,11 @@
+/*************
+ * VARIABLES *
+ *************/
+ 
 :root
 {
-	/**********
-	 * COLORS *
-	 **********/
-	 
+	/*** COLORS ***/
+	
 	--primary: #6200ee;
 	--primary-light-color: hsl(from var(--primary) h s 25%);
 	--primary-color: hsl(from var(--primary) h s 50%);
@@ -26,14 +28,16 @@
 	--warning-color: #df6420;
 	--error-color: #c81720;
 	
-	/*********
-	 * FONTS *
-	 *********/
+	/*** FONTS ***/
 	
 	--headline-font: serif;
 	--paragraph-font: sans-serif;
 	--exotic-font: fantasy;
 }
+
+/***********
+ * GLOBALS *
+ ***********/
 
 *
 {
@@ -54,4 +58,23 @@ html, body
 h1, h2, h3, h4, h5, h6
 {
 	font-family: var(--headline-font);
+}
+
+/***********
+ * CLASSES *
+ ***********/
+
+
+/*** BACKGROUND ***/
+
+.background.light
+{
+	background-color: var(--neutral-lightest-color);
+	color: var(--neutral-darkest-color);
+}
+
+.background.dark
+{
+	background-color: var(--neutral-darkest-color);
+	color: var(--neutral-lightest-color);
 }
