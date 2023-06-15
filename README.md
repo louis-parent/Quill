@@ -2,6 +2,10 @@
 
 **Quill** is a very lightweight CSS toolbox for standardized and common style.
 
+### Usage
+
+You can directly include the `styles` folder into a project and link to the main file `styles/Quill.css` or use a CDN that interface Github like jsDelivr : [https://cdn.jsdelivr.net/gh/louis-parent/Quill@main/styles/Quill.css](https://cdn.jsdelivr.net/gh/louis-parent/Quill@main/styles/Quill.css).
+
 ### Documentation
 
 #### Variables
