@@ -78,3 +78,9 @@ h1, h2, h3, h4, h5, h6
 	background-color: var(--neutral-darkest-color);
 	color: var(--neutral-lightest-color);
 }
+
+.background .background.above
+{
+	background-color: var(--neutral-dark-color);
+	color: var(--neutral-lightest-color);
+}
