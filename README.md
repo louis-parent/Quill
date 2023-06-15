@@ -26,3 +26,11 @@ There are four semantic color that can be modified for a more fined grained cust
 - `--success-color`
 - `--warning-color`
 - `--error-color`
+
+#### Fonts
+
+There are three font levels :
+
+- `--headline-font` : Used for title text
+- `--paragraph-font` : Used for all the text by default
+- `--exotic-font` : Used for special emphasis text

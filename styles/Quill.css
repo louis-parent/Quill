@@ -25,6 +25,14 @@
 	--success-color: #1a883c;
 	--warning-color: #df6420;
 	--error-color: #c81720;
+	
+	/*********
+	 * FONTS *
+	 *********/
+	
+	--headline-font: serif;
+	--paragraph-font: sans-serif;
+	--exotic-font: fantasy;
 }
 
 *
@@ -39,5 +47,11 @@ html, body
 
 	min-width: 100%;
 	min-height: 100%;
+	
+	font-family: var(--paragraph-font);
 }
 
+h1, h2, h3, h4, h5, h6
+{
+	font-family: var(--headline-font);
+}
