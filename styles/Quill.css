@@ -1,5 +1,9 @@
 :root
 {
+	/**********
+	 * COLORS *
+	 **********/
+	 
 	--primary: #6200ee;
 	--primary-light-color: hsl(from var(--primary) h s 25%);
 	--primary-color: hsl(from var(--primary) h s 50%);
