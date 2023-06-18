@@ -90,3 +90,52 @@ h1, h2, h3, h4, h5, h6
 	background-color: var(--neutral-lighter-color);
 	color: var(--neutral-darkest-color);
 }
+
+/*** LAYOUT ***/
+
+.column
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.row
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.column.from-start, .row.from-start
+{
+	justify-content: flex-start;
+}
+
+.column.gapped, .row.gapped
+{
+	justify-content: space-between;
+}
+
+.column.spaced, .row.spaced
+{
+	justify-content: space-around;
+}
+
+.column.from-end, .row.from-end
+{
+	justify-content: flex-end;
+}
+
+.column.at-start, .row.at-start
+{
+	align-items: flex-start;
+}
+
+.column.at-center, .row.at-center
+{
+	align-items: center;
+}
+
+.column.at-end, .row.at-end
+{
+	align-items: flex-end;
+}

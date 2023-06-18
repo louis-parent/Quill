@@ -34,3 +34,18 @@ There are three font levels :
 - `--headline-font` : Used for title text
 - `--paragraph-font` : Used for all the text by default
 - `--exotic-font` : Used for special emphasis text
+
+### Classes
+
+To apply style from **Quill**, you must use classes on element to customize them.
+
+#### Background
+
+The class `background` can be used to apply a background color and matching font color on a element. In combination with `background`, both `light` and `dark` allow to choose the background darkness.
+The special case of `above` allow to set a hightlighted background depending on the background below.
+
+#### Layout
+
+Both classes `row` and `column` alow to create a flex container in the given direction.
+The distribution of the children can be defined by the classes `from-start` for start of the container, `from-end` for end of the container, `gapped` for space between children, `spaced` for space around children.
+The alignement of the children can be defined by the classes `at-start` for start of the container, `at-end` for end of the container and `at-center` for center of the container.
