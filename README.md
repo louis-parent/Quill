@@ -35,6 +35,15 @@ There are three font levels :
 - `--paragraph-font` : Used for all the text by default
 - `--exotic-font` : Used for special emphasis text
 
+#### Spaces
+
+There are four space range :
+
+- `--step-space` : Used for separator without space
+- `--near-space` : Used for smallest space
+- `--midrange-space` : Used for medium space
+- `--far-space` : Used for biggest space
+
 ### Classes
 
 To apply style from **Quill**, you must use classes on element to customize them.
@@ -50,3 +59,9 @@ Both classes `row` and `column` alow to create a flex container in the given dir
 The distribution of the children can be defined by the classes `from-start` for start of the container, `from-end` for end of the container, `gapped` for space between children, `spaced` for space around children.
 The alignement of the children can be defined by the classes `at-start` for start of the container, `at-end` for end of the container and `at-center` for center of the container.
 The class `stretch` allow the children to take full place in the cross axis. In a column, it will result with children of column full width. In a row, children will be full height.
+
+#### Spacing
+
+Both classes `margin` and `padding` to set the matching spacing.
+The classes `step`, `near`, `midrange` and `far` can be used to define the space size.
+The classe prefixes `horizontal-`, `vertical-`, `top-`, `right-`, `bottom-`, `left-` can be used with either `margin` or `padding` to specify the direction of the space.
