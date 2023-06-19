@@ -49,3 +49,4 @@ The special case of `above` allow to set a hightlighted background depending on 
 Both classes `row` and `column` alow to create a flex container in the given direction.
 The distribution of the children can be defined by the classes `from-start` for start of the container, `from-end` for end of the container, `gapped` for space between children, `spaced` for space around children.
 The alignement of the children can be defined by the classes `at-start` for start of the container, `at-end` for end of the container and `at-center` for center of the container.
+The class `stretch` allow the children to take full place in the cross axis. In a column, it will result with children of column full width. In a row, children will be full height.
