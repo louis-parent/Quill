@@ -279,6 +279,11 @@ button
 	height: 100%;
 }
 
+.column.wrap, .row.wrap
+{
+	flex-wrap: wrap;
+}
+
 /*** SPACING ***/
 
 /* All Margin */
