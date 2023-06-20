@@ -116,6 +116,11 @@ h1, h2, h3, h4, h5, h6
 	justify-content: flex-start;
 }
 
+.column.from-center, .row.from-center
+{
+	justify-content: center;
+}
+
 .column.gapped, .row.gapped
 {
 	justify-content: space-between;
