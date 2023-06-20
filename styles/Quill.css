@@ -686,6 +686,16 @@ button
 	height: 75%;
 }
 
+.two-third-width
+{
+	width: 66%;
+}
+
+.two-third-height
+{
+	height: 66%;
+}
+
 .half-width
 {
 	width: 50%;
@@ -696,6 +706,16 @@ button
 	height: 50%;
 }
 
+.third-width
+{
+	width: 33%;
+}
+
+.third-height
+{
+	height: 33%;
+}
+
 .quarter-width
 {
 	width: 25%;
@@ -704,6 +724,66 @@ button
 .quarter-height
 {
 	height: 25%;
+}
+
+.full-screen-width
+{
+	width: 100vw;
+}
+
+.full-screen-height
+{
+	height: 100vh;
+}
+
+.three-quarter-screen-width
+{
+	width: 75vw;
+}
+
+.three-quarter-screen-heigth
+{
+	height: 75vh;
+}
+
+.two-third-screen-width
+{
+	width: 66vw;
+}
+
+.two-third-screen-height
+{
+	height: 66vh;
+}
+
+.half-screen-width
+{
+	width: 50vw;
+}
+
+.half-screen-height
+{
+	height: 50vh;
+}
+
+.third-screen-width
+{
+	width: 33vw;
+}
+
+.third-screen-height
+{
+	height: 33vh;
+}
+
+.quarter-screen-width
+{
+	width: 25vw;
+}
+
+.quarter-screen-height
+{
+	height: 25vh;
 }
 
 /*** ROUNDING ***/

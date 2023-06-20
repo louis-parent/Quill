@@ -80,7 +80,8 @@ The special prefix `no-` can be used before any composed spacing to disable the 
 
 #### Sizing
 
-The classes `width` and `height` can be used to defined the size of an element. Four prefixes are available for different sizes : `full-`, `three-quarter-`, `half-` and `quarter-`.
+The classes `width` and `height` can be used to defined the size of an element. Four prefixes are available for different sizes : `full-`, `three-quarter-`, `two-third-`, `half-`, `third-` and `quarter-`.
+The alternive classes `screen-width` and `screen-height` can be used to base the size relative to viewport.
 
 #### Rounding
 
