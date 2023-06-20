@@ -39,6 +39,12 @@
 	--near-space: 1rem;
 	--midrange-space: 1.75rem;
 	--far-space: 3rem;
+	
+	/*** ROUNDING ***/
+	--soft-rounded-radius: 4px;
+	--rounded-radius: 0.5rem;
+	--very-rounded-radius: 1.5rem;
+	--circular-radius: 50%;
 }
 
 /***********
@@ -586,4 +592,63 @@ h1, h2, h3, h4, h5, h6
 .quarter-height
 {
 	height: 25%;
+}
+
+/*** ROUNDING ***/
+.soft-rounded
+{
+	border-radius: var(--soft-rounded-radius);
+}
+
+.rounded
+{
+	border-radius: var(--rounded-radius);
+}
+
+.very-rounded
+{
+	border-radius: var(--very-rounded-radius);
+}
+
+.circular
+{
+	border-radius: var(--circular-radius);
+}
+
+/*** CTA ***/
+
+.cta
+{	
+	border-radius: 0;
+	padding: var(--step-space);
+}
+
+.cta.floating
+{
+	border-radius: var(--circular-radius);
+	padding: var(--near-space);
+}
+
+.cta.primary
+{
+	background-color: var(--primary-color);
+	border: none;
+}
+
+.cta.secondary
+{
+	background-color: var(--secondary-color);
+	border: none;
+}
+
+.cta.primary.discrete
+{
+	background-color: transparent;
+	border: solid 1px var(--primary-color);
+}
+
+.cta.secondary.discrete
+{
+	background-color: transparent;
+	border: solid 1px var(--secondary-color);
 }

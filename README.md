@@ -44,6 +44,15 @@ There are four space range :
 - `--midrange-space` : Used for medium space
 - `--far-space` : Used for biggest space
 
+#### Rounding
+
+There are four rounding radius :
+
+- `--soft-rounded-radius` : Used for discrete radius
+- `--rounded-radius` : Used as the standard radius
+- `--very-rounded-radius` : Used for oval elements like pills
+- `--circular-radius` : Used for circular elements
+
 ### Classes
 
 To apply style from **Quill**, you must use classes on element to customize them.
@@ -70,3 +79,14 @@ The special prefix `no-` can be used before any composed spacing to disable the 
 #### Sizing
 
 The classes `width` and `height` can be used to defined the size of an element. Four prefixes are available for different sizes : `full-`, `three-quarter-`, `half-` and `quarter-`.
+
+#### Rounding
+
+There are four level of rounded border. `soft-rounded` class is used for a discrete rounding, `rounded` class is a standard rounded element, `very-rounded` is class for element like pills, and `circular` make the element circular.
+
+#### CTA
+
+CTA are emphasis interactible elements defined with the class `cta`.
+There are variant with both class `primary` and `secondary` to choose the color.
+By default the CTA is fully colored, but the class `discrete` only emphasis the border.
+The class `floating` make a circular CTA like floating button.
