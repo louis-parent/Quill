@@ -101,6 +101,14 @@ button
 {
 	border-radius: var(--circular-radius);
 	padding: var(--near-space);
+	
+	/* Keep a circle */
+	aspect-ratio: 1/1;
+	
+	/* Centering in the circle */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .cta.primary
