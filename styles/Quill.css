@@ -467,3 +467,44 @@ h1, h2, h3, h4, h5, h6
 {
 	padding-left: var(--far-space);
 }
+
+/*** SIZING ***/
+.full-width
+{
+	width: 100%;
+}
+
+.full-height
+{
+	height: 100%;
+}
+
+.three-quarter-width
+{
+	width: 75%;
+}
+
+.three-quarter-heigth
+{
+	height: 75%;
+}
+
+.half-width
+{
+	width: 50%;
+}
+
+.half-height
+{
+	height: 50%;
+}
+
+.quarter-width
+{
+	width: 25%;
+}
+
+.quarter-height
+{
+	height: 25%;
+}

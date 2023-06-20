@@ -65,3 +65,7 @@ The class `stretch` allow the children to take full place in the cross axis. In 
 Both classes `margin` and `padding` to set the matching spacing.
 The classes `step`, `near`, `midrange` and `far` can be used to define the space size.
 The classe prefixes `horizontal-`, `vertical-`, `top-`, `right-`, `bottom-`, `left-` can be used with either `margin` or `padding` to specify the direction of the space.
+
+#### Sizing
+
+The classes `width` and `height` can be used to defined the size of an element. Four prefixes are available for different sizes : `full-`, `three-quarter-`, `half-` and `quarter-`.
