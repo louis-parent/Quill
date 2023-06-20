@@ -28,6 +28,13 @@
 	--warning-color: #df6420;
 	--error-color: #c81720;
 	
+	--on-primary-color: var(--neutral-lightest-color);
+	--on-secondary-color: var(--neutral-darkest-color);
+	--on-info-color: var(--neutral-lightest-color);
+	--on-success-color: var(--neutral-lightest-color);
+	--on-warning-color: var(--neutral-darkest-color);
+	--on-error-color: var(--neutral-lightest-color);
+	
 	/*** FONTS ***/
 	
 	--headline-font: serif;
@@ -72,10 +79,107 @@ h1, h2, h3, h4, h5, h6
 	font-family: var(--headline-font);
 }
 
+button
+{
+	cursor: pointer;
+}
+
 /***********
  * CLASSES *
  ***********/
 
+/*** CTA ***/
+
+.cta
+{	
+	border-radius: 0;
+	padding: var(--step-space);
+	border: none;
+}
+
+.cta.floating
+{
+	border-radius: var(--circular-radius);
+	padding: var(--near-space);
+}
+
+.cta.primary
+{
+	background-color: var(--primary-color);
+	color: var(--on-primary-color);
+}
+
+.cta.secondary
+{
+	background-color: var(--secondary-color);
+	color: var(--on-secondary-color);
+}
+
+.cta.info
+{
+	background-color: var(--info-color);
+	color: var(--on-info-color);
+}
+
+.cta.success
+{
+	background-color: var(--success-color);
+	color: var(--on-success-color);
+}
+
+.cta.warning
+{
+	background-color: var(--warning-color);
+	color: var(--on-warning-color);
+}
+
+.cta.error
+{
+	background-color: var(--error-color);
+	color: var(--on-error-color);
+}
+
+.cta.discrete
+{
+	background-color: transparent;
+	border: solid 1px transparent;
+}
+
+.cta.primary.discrete
+{
+	border-color: var(--primary-color);
+	color: var(--primary-color);
+}
+
+.cta.secondary.discrete
+{
+	border-color: var(--secondary-color);
+	color: var(--secondary-color);
+}
+
+.cta.info.discrete
+{
+	border-color: var(--info-color);
+	color: var(--info-color);
+}
+
+.cta.success.discrete
+{
+	border-color: var(--success-color);
+	color: var(--success-color);
+}
+
+.cta.warning.discrete
+{
+	border-color: var(--warning-color);
+	color: var(--warning-color);
+}
+
+.cta.error.discrete
+{
+	border-color: var(--error-color);
+	color: var(--error-color);
+}
 
 /*** BACKGROUND ***/
 
@@ -613,42 +717,4 @@ h1, h2, h3, h4, h5, h6
 .circular
 {
 	border-radius: var(--circular-radius);
-}
-
-/*** CTA ***/
-
-.cta
-{	
-	border-radius: 0;
-	padding: var(--step-space);
-}
-
-.cta.floating
-{
-	border-radius: var(--circular-radius);
-	padding: var(--near-space);
-}
-
-.cta.primary
-{
-	background-color: var(--primary-color);
-	border: none;
-}
-
-.cta.secondary
-{
-	background-color: var(--secondary-color);
-	border: none;
-}
-
-.cta.primary.discrete
-{
-	background-color: transparent;
-	border: solid 1px var(--primary-color);
-}
-
-.cta.secondary.discrete
-{
-	background-color: transparent;
-	border: solid 1px var(--secondary-color);
 }

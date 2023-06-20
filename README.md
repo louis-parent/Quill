@@ -27,6 +27,8 @@ There are four semantic color that can be modified for a more fined grained cust
 - `--warning-color`
 - `--error-color`
 
+For each of these color (primary, secondary and semantics) there a variable for the font color over it named `--on-[COLOR]-color`.
+
 #### Fonts
 
 There are three font levels :
