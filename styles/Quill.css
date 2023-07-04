@@ -95,6 +95,16 @@ button
 	border-radius: 0;
 	padding: var(--step-space);
 	border: none;
+	font-size: 1.25em;
+}
+
+.icon-prefixed.cta
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .cta.floating
@@ -220,13 +230,31 @@ button
 .column
 {
 	display: flex;
+}
+
+.column:not(.reverse)
+{
 	flex-direction: column;
+}
+
+.column.reverse
+{
+	flex-direction: column-reverse;
 }
 
 .row
 {
 	display: flex;
+}
+
+.row:not(.reverse)
+{
 	flex-direction: row;
+}
+
+.row.reverse
+{
+	flex-direction: row-reverse;
 }
 
 .column.from-start, .row.from-start
