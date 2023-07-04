@@ -94,3 +94,8 @@ CTA are emphasis interactible elements defined with the class `cta`.
 There are variant with both class `primary` and `secondary` to choose the color.
 By default the CTA is fully colored, but the class `discrete` only emphasis the border.
 The class `floating` make a circular CTA like floating button.
+
+#### Input
+
+Input can be styled in two ways associated with two classes `filled` and `outlined`. Filled input has a neutral background and is underlined, outlined input has no background and a complete border.
+Color of the input can be set with with the `primary` and `secondary` classes.
