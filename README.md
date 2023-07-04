@@ -95,3 +95,4 @@ CTA are emphasis interactible elements defined with the class `cta`.
 There are variant with both class `primary` and `secondary` to choose the color.
 By default the CTA is fully colored, but the class `discrete` only emphasis the border.
 The class `floating` make a circular CTA like floating button.
+The class `icon-prefixed` is a special class for CTA composed of an icon and a content.
