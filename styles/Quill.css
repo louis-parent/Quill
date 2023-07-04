@@ -96,15 +96,26 @@ button
 	padding: var(--step-space);
 	border: none;
 	font-size: 1.25em;
+	text-align: center;
 }
 
 .icon-prefixed.cta
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	padding-left: 1em;
 	padding-right: 1em;
+}
+
+.icon-prefixed.cta > :nth-child(1)
+{
+	padding-right: var(--near-space);
+}
+
+.icon-prefixed.cta > :nth-child(2)
+{
+	width: 100%;
+	text-align: center;
 }
 
 .cta.floating
