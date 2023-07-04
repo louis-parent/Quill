@@ -876,9 +876,19 @@ select.outlined, input.outlined
 	color: var(--neutral-darkest-color);
 }
 
-select.outlined.primary, input.outlined.primary
+select.outlined:focus, input.outlined:focus
+{
+	outline: none;
+}
+
+select.outlined.primary:focus, input.outlined.primary:focus
 {
 	border-color: var(--primary-color);
+}
+
+select.outlined.secondary:focus, input.outlined.secondary:focus
+{
+	border-color: var(--secondary-color);
 }
 
 select.filled, input.filled
@@ -913,6 +923,11 @@ select.filled, input.filled
 .background.light .background.above select.filled, .background.light .background.above input.filled,
 {
 	background: var(--neutral-darker-color);
+}
+
+select.filled:focus, input.filled:focus
+{
+	outline: none;
 }
 
 select.filled.primary:focus, input.filled.primary:focus
