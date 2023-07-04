@@ -220,13 +220,31 @@ button
 .column
 {
 	display: flex;
+}
+
+.column:not(.reverse)
+{
 	flex-direction: column;
+}
+
+.column.reverse
+{
+	flex-direction: column-reverse;
 }
 
 .row
 {
 	display: flex;
+}
+
+.row:not(.reverse)
+{
 	flex-direction: row;
+}
+
+.row.reverse
+{
+	flex-direction: row-reverse;
 }
 
 .column.from-start, .row.from-start
