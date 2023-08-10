@@ -1,0 +1,46 @@
+.relative
+{
+	position: relative;
+}
+
+.sticky
+{
+	position: sticky;
+}
+
+.relative.offset, .sticky.offset
+{
+	top: var(--offset-y);
+	left: var(--offset-x);
+}
+
+.fixed
+{
+	position: fixed;
+}
+
+.absolute
+{
+	position: absolute;
+}
+
+.fixed.coordinate, .absolute.coordinate
+{
+	top: var(--y);
+	left: var(--x);
+}
+
+.behind
+{
+	z-index: -1;
+}
+
+.front
+{
+	z-index: 100;
+}
+
+.always-on-top
+{
+	z-index: 2147483647;
+}
