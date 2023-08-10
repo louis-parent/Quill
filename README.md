@@ -76,7 +76,7 @@ The class `reverse` allow to reverse the whole flex container.
 #### Spacing
 
 Both classes `margin` and `padding` to set the matching spacing.
-The classes `step`, `near`, `midrange` and `far` can be used to define the space size.
+The suffixes `-step`, `-near`, `-midrange` and `-far` can be used to define the space size.
 The classe prefixes `horizontal-`, `vertical-`, `top-`, `right-`, `bottom-`, `left-` can be used with either `margin` or `padding` to specify the direction of the space.
 The special prefix `no-` can be used before any composed spacing to disable the space in this direction.
 
