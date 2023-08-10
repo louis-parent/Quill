@@ -85,6 +85,11 @@ The special prefix `no-` can be used before any composed spacing to disable the 
 The classes `width` and `height` can be used to defined the size of an element. Four prefixes are available for different sizes : `full-`, `three-quarter-`, `two-third-`, `half-`, `third-` and `quarter-`.
 The alternive classes `screen-width` and `screen-height` can be used to base the size relative to viewport.
 
+#### Positionning
+
+The classes `relative`, `sticky`, `fixed`, `absolute` can be used to set the matching positionning mode. The class `offset` indicate to use `--offset-x` and `--offset-y` CSS variables for relative and sticky position. The class `coordinate` indicates to use `--x` and `--y` CSS variables for fixed and absolute positionnig.
+The classes `behind`, `front` and `always-on-top` are used for depth of positionated elements.
+
 #### Rounding
 
 There are four level of rounded border. `soft-rounded` class is used for a discrete rounding, `rounded` class is a standard rounded element, `very-rounded` is class for element like pills, and `circular` make the element circular.
