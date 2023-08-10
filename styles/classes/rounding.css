@@ -1,0 +1,19 @@
+.soft-rounded
+{
+	border-radius: var(--soft-rounded-radius);
+}
+
+.rounded
+{
+	border-radius: var(--rounded-radius);
+}
+
+.very-rounded
+{
+	border-radius: var(--very-rounded-radius);
+}
+
+.circular
+{
+	border-radius: var(--circular-radius);
+}

@@ -1,0 +1,119 @@
+.cta
+{	
+	border-radius: 0;
+	padding: var(--step-space);
+	border: none;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+.icon-prefixed.cta
+{
+	display: flex;
+	flex-direction: row;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.icon-prefixed.cta > :nth-child(1)
+{
+	padding-right: var(--near-space);
+}
+
+.icon-prefixed.cta > :nth-child(2)
+{
+	width: 100%;
+	text-align: center;
+}
+
+.cta.floating
+{
+	border-radius: var(--circular-radius);
+	padding: var(--near-space);
+	
+	/* Keep a circle */
+	aspect-ratio: 1/1;
+	
+	/* Centering in the circle */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cta.primary
+{
+	background-color: var(--primary-color);
+	color: var(--on-primary-color);
+}
+
+.cta.secondary
+{
+	background-color: var(--secondary-color);
+	color: var(--on-secondary-color);
+}
+
+.cta.info
+{
+	background-color: var(--info-color);
+	color: var(--on-info-color);
+}
+
+.cta.success
+{
+	background-color: var(--success-color);
+	color: var(--on-success-color);
+}
+
+.cta.warning
+{
+	background-color: var(--warning-color);
+	color: var(--on-warning-color);
+}
+
+.cta.error
+{
+	background-color: var(--error-color);
+	color: var(--on-error-color);
+}
+
+.cta.discrete
+{
+	background-color: transparent;
+	border: solid 1px transparent;
+}
+
+.cta.primary.discrete
+{
+	border-color: var(--primary-color);
+	color: var(--primary-color);
+}
+
+.cta.secondary.discrete
+{
+	border-color: var(--secondary-color);
+	color: var(--secondary-color);
+}
+
+.cta.info.discrete
+{
+	border-color: var(--info-color);
+	color: var(--info-color);
+}
+
+.cta.success.discrete
+{
+	border-color: var(--success-color);
+	color: var(--success-color);
+}
+
+.cta.warning.discrete
+{
+	border-color: var(--warning-color);
+	color: var(--warning-color);
+}
+
+.cta.error.discrete
+{
+	border-color: var(--error-color);
+	color: var(--error-color);
+}

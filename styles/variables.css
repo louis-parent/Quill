@@ -1,0 +1,55 @@
+/*************
+ * VARIABLES *
+ *************/
+ 
+:root
+{
+	/*** COLORS ***/
+	
+	--primary: #6200ee;
+	--primary-light-color: hsl(from var(--primary) h s 25%);
+	--primary-color: hsl(from var(--primary) h s 50%);
+	--primary-dark-color: hsl(from var(--primary) h s 75%);
+	
+	--secondary: #03dac5;
+	--secondary-light-color: hsl(from var(--secondary) h s 25%);
+	--secondary-color: hsl(from var(--secondary) h s 50%);
+	--secondary-dark-color: hsl(from var(--secondary) h s 75%);
+	
+	--neutral: #b0b4c5;
+	--neutral-lightest-color: hsl(from var(--neutral) h s 90%);
+	--neutral-lighter-color: hsl(from var(--neutral) h s 66%);
+	--neutral-color: hsl(from var(--neutral) h s 45%);
+	--neutral-darker-color: hsl(from var(--neutral) h s 20%);
+	--neutral-darkest-color: hsl(from var(--neutral) h s 5%);
+	
+	--info-color: #0172e4;
+	--success-color: #1a883c;
+	--warning-color: #df6420;
+	--error-color: #c81720;
+	
+	--on-primary-color: var(--neutral-lightest-color);
+	--on-secondary-color: var(--neutral-darkest-color);
+	--on-info-color: var(--neutral-lightest-color);
+	--on-success-color: var(--neutral-lightest-color);
+	--on-warning-color: var(--neutral-darkest-color);
+	--on-error-color: var(--neutral-lightest-color);
+	
+	/*** FONTS ***/
+	
+	--headline-font: serif;
+	--paragraph-font: sans-serif;
+	--exotic-font: fantasy;
+	
+	/*** SPACES ***/
+	--step-space: 6px;
+	--near-space: 1rem;
+	--midrange-space: 1.75rem;
+	--far-space: 3rem;
+	
+	/*** ROUNDING ***/
+	--soft-rounded-radius: 4px;
+	--rounded-radius: 0.5rem;
+	--very-rounded-radius: 1.5rem;
+	--circular-radius: 50%;
+}

@@ -1,0 +1,23 @@
+.background.light
+{
+	background-color: var(--neutral-lightest-color);
+	color: var(--neutral-darkest-color);
+}
+
+.background.dark
+{
+	background-color: var(--neutral-darkest-color);
+	color: var(--neutral-lightest-color);
+}
+
+.background.dark .background.above
+{
+	background-color: var(--neutral-darker-color);
+	color: var(--neutral-lightest-color);
+}
+
+.background.light .background.above
+{
+	background-color: var(--neutral-lighter-color);
+	color: var(--neutral-darkest-color);
+}
