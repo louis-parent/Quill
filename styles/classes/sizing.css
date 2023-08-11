@@ -1,3 +1,4 @@
+/** Fixed **/
 .full-width
 {
 	width: 100%;
@@ -116,4 +117,246 @@
 .quarter-screen-height
 {
 	height: 25vh;
+}
+
+/** Maximal **/
+.full-width-max
+{
+	max-width: 100%;
+}
+
+.full-height-max
+{
+	max-height: 100%;
+}
+
+.three-quarter-width-max
+{
+	max-width: 75%;
+}
+
+.three-quarter-heigth-max
+{
+	max-height: 75%;
+}
+
+.two-third-width-max
+{
+	max-width: 66%;
+}
+
+.two-third-height-max
+{
+	max-height: 66%;
+}
+
+.half-width-max
+{
+	max-width: 50%;
+}
+
+.half-height-max
+{
+	max-height: 50%;
+}
+
+.third-width-max
+{
+	max-width: 33%;
+}
+
+.third-height-max
+{
+	max-height: 33%;
+}
+
+.quarter-width-max
+{
+	max-width: 25%;
+}
+
+.quarter-height-max
+{
+	max-height: 25%;
+}
+
+.full-screen-width-max
+{
+	max-width: 100vw;
+}
+
+.full-screen-height-max
+{
+	max-height: 100vh;
+}
+
+.three-quarter-screen-width-max
+{
+	max-width: 75vw;
+}
+
+.three-quarter-screen-heigth-max
+{
+	max-height: 75vh;
+}
+
+.two-third-screen-width-max
+{
+	max-width: 66vw;
+}
+
+.two-third-screen-height-max
+{
+	max-height: 66vh;
+}
+
+.half-screen-width-max
+{
+	max-width: 50vw;
+}
+
+.half-screen-height-max
+{
+	max-height: 50vh;
+}
+
+.third-screen-width-max
+{
+	max-width: 33vw;
+}
+
+.third-screen-height-max
+{
+	max-height: 33vh;
+}
+
+.quarter-screen-width-max
+{
+	max-width: 25vw;
+}
+
+.quarter-screen-height-max
+{
+	max-height: 25vh;
+}
+
+/** Minimal **/
+.full-width-min
+{
+	min-width: 100%;
+}
+
+.full-height-min
+{
+	min-height: 100%;
+}
+
+.three-quarter-width-min
+{
+	min-width: 75%;
+}
+
+.three-quarter-heigth-min
+{
+	min-height: 75%;
+}
+
+.two-third-width-min
+{
+	min-width: 66%;
+}
+
+.two-third-height-min
+{
+	min-height: 66%;
+}
+
+.half-width-min
+{
+	min-width: 50%;
+}
+
+.half-height-min
+{
+	min-height: 50%;
+}
+
+.third-width-min
+{
+	min-width: 33%;
+}
+
+.third-height-min
+{
+	min-height: 33%;
+}
+
+.quarter-width-min
+{
+	min-width: 25%;
+}
+
+.quarter-height-min
+{
+	min-height: 25%;
+}
+
+.full-screen-width-min
+{
+	min-width: 100vw;
+}
+
+.full-screen-height-min
+{
+	min-height: 100vh;
+}
+
+.three-quarter-screen-width-min
+{
+	min-width: 75vw;
+}
+
+.three-quarter-screen-heigth-min
+{
+	min-height: 75vh;
+}
+
+.two-third-screen-width-min
+{
+	min-width: 66vw;
+}
+
+.two-third-screen-height-min
+{
+	min-height: 66vh;
+}
+
+.half-screen-width-min
+{
+	min-width: 50vw;
+}
+
+.half-screen-height-min
+{
+	min-height: 50vh;
+}
+
+.third-screen-width-min
+{
+	min-width: 33vw;
+}
+
+.third-screen-height-min
+{
+	min-height: 33vh;
+}
+
+.quarter-screen-width-min
+{
+	min-width: 25vw;
+}
+
+.quarter-screen-height-min
+{
+	min-height: 25vh;
 }
