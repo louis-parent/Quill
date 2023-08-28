@@ -1,0 +1,99 @@
+.bold
+{
+	font-weight: bold;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.uppercase
+{
+  text-transform: uppercase;
+}
+
+.lowercase
+{
+  text-transform: lowercase;
+}
+
+.capitalized
+{
+  text-transform: capitalize;
+}
+
+.underlined
+{
+	text-decoration-line: underline;
+}
+
+.overlined
+{
+	text-decoration-line: overline;
+}
+
+.crossed-out
+{
+	text-decoration-line: line-through;
+}
+
+.underlined.solid, .overlined.solid, .crossed-out.solid
+{
+	text-decoration-style: solid;
+}
+
+.underlined.double, .overlined.double, .crossed-out.double
+{
+	text-decoration-style: double;
+}
+
+.underlined.dotted, .overlined.dotted, .crossed-out.dotted
+{
+	text-decoration-style: dotted;
+}
+
+.underlined.dashed, .overlined.dashed, .crossed-out.dashed
+{
+	text-decoration-style: dashed;
+}
+
+.underlined.wavy, .overlined.wavy, .crossed-out.wavy
+{
+	text-decoration-style: wavy;
+}
+
+.underlined.primary, .overlined.primary, .crossed-out.primary
+{
+	text-decoration-color: var(--primary-color);
+}
+
+.underlined.secondary, .overlined.secondary, .crossed-out.secondary
+{
+	text-decoration-color: var(--secondary-color);
+}
+
+.underlined.neutral, .overlined.neutral, .crossed-out.neutral
+{
+	text-decoration-color: var(--neutral-color);
+}
+
+.underlined.info, .overlined.info, .crossed-out.info
+{
+	text-decoration-color: var(--info-color);
+}
+
+.underlined.success, .overlined.success, .crossed-out.success
+{
+	text-decoration-color: var(--success-color);
+}
+
+.underlined.warning, .overlined.warning, .crossed-out.warning
+{
+	text-decoration-color: var(--warning-color);
+}
+
+.underlined.error, .overlined.error, .crossed-out.error
+{
+	text-decoration-color: var(--error-color);
+}

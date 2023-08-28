@@ -107,3 +107,10 @@ The class `icon-prefixed` is a special class for CTA composed of an icon and a c
 
 Input can be styled in two ways associated with two classes `filled` and `outlined`. Filled input has a neutral background and is underlined, outlined input has no background and a complete border.
 Color of the input can be set with with the `primary` and `secondary` classes.
+
+#### Text
+
+Standard text formatting can be easily done with some classes.
+The font can be modified with `bold` and `italic`.
+The font case can be set with `uppercase`, `lowercase` and `capitalized`.
+The font lines can be defined with `underlined`, `overlined` and `crossed-out`. The optional class `solid`, `double`, `dotted`, `dashed` and `wavy` can define the style of the line. The classes `primary`, `secondary`, `neutral`, `info`, `success`, `warning`, `error` can be used to set a custom color for the line.
